@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    tools:context=".kategori">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/ktg9"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginRight="19dp"
+                android:background="@drawable/btn_bindo"
+                android:padding="8dp"
+                android:text="Bahasa Indonesia Kelas 2"
+                android:textColor="@android:color/black"
+                android:textSize="13dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ktg8"
+                app:layout_constraintTop_toBottomOf="@+id/ktg7" />
+
+            <Button
+                android:id="@+id/ktg3"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/btn_ps"
+                android:padding="8dp"
+                android:text="Pengetahuan Sosial Kelas 5"
+                android:textColor="@android:color/black"
+                android:textSize="13dp"
+                app:layout_constraintEnd_toStartOf="@+id/ktg4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ktg1" />
+
+            <Button
+                android:id="@+id/ktg4"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/btn_bindo"
+                android:text="Bahasa Inggris Kelas 5"
+                android:padding="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="13dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ktg3"
+                app:layout_constraintTop_toBottomOf="@+id/ktg2" />
+
+            <Button
+                android:id="@+id/ktg2"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/btn_pkn"
+                android:text="PPkN Kelas 6"
+                android:textColor="@android:color/black"
+                android:textSize="13dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ktg1"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tentukan" />
+
+            <TextView
+                android:id="@+id/tv_tentukan"
+                android:layout_width="287dp"
+                android:layout_height="118dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="68dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:text="TENTUKAN PELAJARAN"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="56dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.506"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/ktg1"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/btn_pa"
+                android:padding="8dp"
+                android:text="Pengetahuan Alam Kelas 6"
+                android:textColor="@android:color/black"
+                android:textSize="13dp"
+                app:layout_constraintEnd_toStartOf="@+id/ktg2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tentukan" />
+
+            <Button
+                android:id="@+id/ktg"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/btn_tik"
+                android:padding="8dp"
+                android:text="TIK Kelas 4"
+                android:textColor="@android:color/black"
+                android:textSize="13dp"
+                app:layout_constraintEnd_toStartOf="@+id/ktg5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ktg3" />
+
+            <Button
+                android:id="@+id/ktg6"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/btn_bing"
+                android:padding="8dp"
+                android:text="Bahasa Inggris Kelas 3"
+                android:textColor="@android:color/black"
+                android:textSize="13dp"
+                app:layout_constraintEnd_toStartOf="@+id/ktg7"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ktg" />
+
+            <Button
+                android:id="@+id/ktg8"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/btn_pa"
+                android:padding="8dp"
+                android:text="Pengetahuan Alam Kelas 1"
+                android:textColor="@android:color/black"
+                android:textSize="13dp"
+                app:layout_constraintEnd_toStartOf="@+id/ktg9"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ktg6" />
+
+            <Button
+                android:id="@+id/ktg7"
+                android:layout_width="160dp"
+                android:layout_height="59dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/btn_mtk"
+                android:padding="8dp"
+                android:text="Matematika Kelas 3"
+                android:textColor="@android:color/black"
+                android:textSize="13dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ktg6"
+                app:layout_constraintTop_toBottomOf="@+id/ktg5" />
+
+            <Button
+                android:id="@+id/ktg5"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="11dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:padding="8dp"
+                android:background="@drawable/btn_seni"
+                android:text="Seni Budaya Kelas 4"
+                android:textColor="@android:color/black"
+                android:textSize="13dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ktg"
+                app:layout_constraintTop_toBottomOf="@+id/ktg4" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </LinearLayout>
+
+</ScrollView>
